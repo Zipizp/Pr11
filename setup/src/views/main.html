@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Розбий блоки для ІПЗ!</title>
+  </head>
+  <body>
+    <h1>Лабораторна робота для ІПЗ</h1>
+  <button id="rules-btn" class="btn rules-btn">Показати правила гри</button>
+  <button id="start-btn" class="btn start-btn">Почати гру</button>
+  <div id="game-over-message" class="game-over">
+    <h2>Ви програли!</h2>
+    <button id="restart-btn" class="btn">Почати знову</button>
+  </div>
+
+  <div id="rules" class="rules">
+    <h2>Як грати:</h2>
+    <p>Використовуй праву та ліву кнопки клавіатури для пересування платформи для того, щоб відбити вгору м'яч і розбивати блоки.</p>
+    <p>Якщо ви втратите м'яч ваш результат обнулиться, а блоки відновляться</p>
+    <button id="close-btn" class="btn">Закрити</button>
+  </div>
+
+  <canvas id="canvas" width="800" height="600"></canvas>
+
+  <script src="../app/index.js"></script>
+  </body>
+</html>
